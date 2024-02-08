@@ -1,0 +1,13 @@
+package com.mbip.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/penyertaan")
+public class AktivitiKitarSemula {
+    @RequestMapping("/testing")
+    public String test() {
+        return "penyertaan/sahkanTurutSerta";
+    }
+}
