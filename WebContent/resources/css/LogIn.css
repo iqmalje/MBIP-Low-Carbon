@@ -1,0 +1,118 @@
+.box1 {
+  width: 21vw;
+  height: 372px;
+  flex-shrink: 0;
+  border-radius: 17px;
+  background: #fff;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.25);
+  margin: 22vh auto 5vh auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.main-form {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; */
+  margin: 0 auto;
+}
+
+.box-header {
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+}
+
+.ml3vw {
+  margin-left: 3vw;
+}
+
+.input-con {
+  width: 15vw;
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1.3px solid #969696;
+  background: #e5e5e5;
+  display: flex;
+  align-items: center;
+}
+
+.input-con input {
+  flex: 1; /* Expand to fill the available space */
+  border: none; /* Remove default input border */
+  border-radius: 0; /* Remove border-radius to avoid conflicts */
+  padding: 0 10px; /* Add padding as needed */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  background: transparent; /* Make the input background transparent */
+}
+
+.lupa-kata-laluan {
+  color: #0057ff;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.log-masuk-button {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 132px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #5f8aee;
+  margin: 3vh auto;
+}
+
+.bottom-area {
+  border: 1px #cfcfcf solid;
+  width: 21vw;
+  margin: 0 auto;
+}
+
+.white-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21vw;
+  height: 90px;
+  flex-shrink: 0;
+  border-radius: 17px;
+  background: #fff;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.25);
+  margin: 5vh auto;
+}
+
+.cipta-akaun-baru {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 261px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #5f8aee;
+  margin: auto;
+}
+
+.log-admin {
+  color: #949494;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  display: block;
+}
+

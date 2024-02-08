@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  background-color: #f1f4f8;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+
+.top-bar {
+  width: 100%;
+  height: 123px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-bar .left {
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.top-bar .left .image {
+  background-color: black;
+  height: 24px;
+  width: 30px;
+}
+
+.top-bar .middle {
+  background-color: black;
+  height: 104px;
+  width: 231px;
+}
+
+.top-bar .right {
+  color: black;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.top-bar .right .image {
+  background-color: black;
+  height: 16px;
+  width: 16px;
+  border-radius: 9999px;
+  border: 1.3px;
+}
+
+.bottom-area {
+  border: 1px #cfcfcf solid;
+}
+
+/* .bottom-area .language{
+    height: 39px;
+    width: 77px;
+    margin-top: 35px;
+    margin-right: 56px;
+    margin-left: auto; 
+    border-radius: 19.50px; 
+    border: 1.30px #949494 solid;
+} */
+
+.salinan-header {
+  color: black;
+  font-size: 34px;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-top: 68px;
+  text-align: center;
+}
+
+.yellow-line {
+  width: 580px;
+  height: 16.35px;
+  background: #ffd977;
+  margin: -13px auto 0 auto;
+}
+
+.pilihan-header {
+  margin-top: 64px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.bill-container {
+  width: 112px;
+  height: 32px;
+  border-radius: 16px;
+  background: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.choose-bill {
+  margin-top: 38px;
+  font-family: Poppins;
+  width: 600px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.choose-bill .bill-container-chosen {
+  width: 112px;
+  height: 32px;
+  border-radius: 16px;
+  background: linear-gradient(268deg, #ff9c28 6.48%, #fff628 96.72%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grey-line {
+  width: 1063px;
+  height: 1px;
+  background: #cfcfcf;
+  margin: 40px auto 0;
+}
+
+.status {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status .child-con {
+  width: 111px;
+  height: 25px;
+  background: #ff0000;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  margin-left: 2px;
+}
+
+.status .child {
+  color: #fdfdfd;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+}
+
+.text1 {
+  color: black;
+  font-size: 34px;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+}
+
+.text2 {
+  color: black;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 400;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.big-card {
+  width: 1070px;
+  height: 885px;
+  background: white;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 17px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.big-card .month {
+  width: 185px;
+  margin-top: 45px;
+}
+
+.big-card .month .month-name-con {
+  width: 112px;
+  height: 32px;
+  border-radius: 16px;
+  background: linear-gradient(268deg, #ff9c28 6.48%, #fff628 96.72%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-card .month .trashcan {
+  background-color: black;
+  height: 32px;
+  width: 32px;
+  border-radius: 9999px;
+  border: 1.3px;
+}
+
+.big-card .month .row1 {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.big-card .month .upload-file-con {
+  width: 177px;
+  height: 237px;
+  border-radius: 8px;
+  border: 1.5px #969696 dotted;
+  margin-top: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-card .month .row2 {
+  display: flex;
+  justify-content: start;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-card .month .row2 .status-2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 500;
+  display: flex;
+  justify-content: start;
+}
+
+.child-con-2 {
+  width: 111px;
+  height: 25px;
+  background: #ff0000;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.child-2 {
+  color: #fdfdfd;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.row3 {
+  color: black;
+  font-size: 12px;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.month-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.upload-file-con .plus-logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 9999px;
+  border: 1px #969696 solid;
+}
+
+.plus {
+  color: #9d9d9d;
+  font-size: 30px;
+  width: 21px;
+  height: 16px;
+  margin: auto;
+}

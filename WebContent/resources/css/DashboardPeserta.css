@@ -1,0 +1,279 @@
+body {
+  margin: 0;
+  background-color: #f1f4f8;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bottom-area {
+  border: 1px #cfcfcf solid;
+}
+
+/* .bottom-area .language{
+    height: 39px;
+    width: 77px;
+    margin-top: 35px;
+    margin-right: 56px;
+    margin-left: auto; 
+    border-radius: 19.50px; 
+    border: 1.30px #949494 solid;
+} */
+
+.salinan-header {
+  color: black;
+  font-size: 34px;
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-top: 68px;
+  text-align: center;
+}
+
+.yellow-line {
+  width: 500px;
+  height: 16.35px;
+  background: #ffd977;
+  margin: -13px auto 0 auto;
+}
+
+.three-box-con {
+  max-width: 70vw;
+  margin: 5% auto;
+  color: grey;
+  display: flex;
+  justify-content: space-around;
+}
+
+.carbon-box {
+  height: 45vh;
+  width: 19vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.25);
+}
+.image-con {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.image-con > img {
+  width: 90%;
+}
+
+.jenis-karbon-header {
+  font-family: "Poppins";
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pelepasan-karbon-text {
+  font-family: "Poppins";
+  font-size: 0.75vw;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.kiraan-pelepasan-karbon {
+  font-family: "Poppins";
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.status-maklumat-header {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.text-font{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.tahun-kategori-cari-con {
+  max-width: 25vw;
+  margin: 2% auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pilih-con {
+  border-radius: 6px;
+  background: #fdfdfd;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.grey-text {
+  color: #949494;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cari-con {
+  text-align: center;
+  width: 5vw;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #4177f5;
+}
+
+.grey-line {
+  width: 65vw;
+  height: 2px;
+  background: #cfcfcf;
+  margin: 2% auto;
+}
+
+.table-con {
+  border: 1px solid black;
+  width: 60vw;
+  margin: 2% auto;
+}
+
+th,
+td {
+  border: 1px solid #828282;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #e5e5e5;
+}
+
+td {
+  background-color: #fdfdfd;
+}
+
+.logout-btn {
+  width: 100px;
+  background-color: #4177f5;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* SEARCH BAR DARI SINI*/
+
+.tahun-kategori-cari-con {
+  max-width: 25vw;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pilih-con {
+  border-radius: 6px;
+  background: #fdfdfd;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  height: 30px;
+  width: 120px;
+}
+/* SEARCH BAR SAMPAI SINI*/
+
+
+.submitFormTekan {
+  padding-left: 10px;
+  padding-left: 10px;
+  height: 40px;
+  background-color: white; 
+  border: 1px solid grey;
+  border-radius: 15px;
+  color: black; 
+  font-size: 16px; 
+  font-family: "Poppins"; 
+  font-weight: 500; 
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.centerTab {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.submitFormTakTekan {
+
+  padding-left: 10px;
+  padding-left: 10px;
+  height: 40px;
+  background-color: #D9D9D9; 
+  border: 1px solid grey;
+  border-radius: 15px;
+  color: grey; 
+  font-size: 16px; 
+  font-family: "Poppins"; 
+  font-weight: 500; 
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.tambahPertandingan{
+  color: white;
+  padding-left: 10px;
+  padding-left: 10px;
+  height: 40px;
+  background-color: #1931E3; 
+  border: 0px solid grey;
+  border-radius: 15px;
+  font-size: 16px; 
+  font-family: "Poppins"; 
+  font-weight: 500; 
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.substatus {
+  color: #FDFDFD; 
+  font-size: 12px; 
+  font-family: Poppins; 
+  font-style: normal; 
+  font-weight: 500; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+
+.centerElement {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

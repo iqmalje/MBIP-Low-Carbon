@@ -1,0 +1,63 @@
+.bottom-area{
+    border: 1px #CFCFCF solid;
+}
+
+.salinan-header{
+    color: black;
+    font-size: 34px;
+    font-family: Poppins;
+    font-weight: 600; 
+    margin-top: 68px;
+    text-align: center;
+}   
+
+.yellow-line {
+    width: 500px;
+    height: 16.35px;
+    background: #FFD977;
+    margin: -13px auto 0 auto;
+}
+
+.desc{
+    margin-top: 10vh;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.image-con{
+    width: 40vw;
+    height: 47vh;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(<path-to-image>), rgb(212, 212, 212) 50% / cover no-repeat;
+    box-shadow: 0px 4px 10px 0px rgba(229, 226, 226, 0.25);
+    margin: 5vh auto;
+}
+
+.turut-button{
+    width: 333px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background: #4177F5;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.turut-serta-text{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   
+}
+

@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: #f1f4f8;
+}
+
+.popup-con {
+  width: 600px;
+  height: 850px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bottom-area {
+  border: 1px #cfcfcf solid;
+}
+
+.salinan-header {
+  color: black;
+  font-size: 22px;
+  font-family: Poppins;
+  font-weight: 600;
+  text-align: center;
+}
+
+.yellow-line {
+  width: 300px;
+  height: 11.35px;
+  background: #ffd977;
+  margin: -12px auto 0 auto;
+}
+
+.tahun-kategori-cari-con {
+  max-width: 25vw;
+  margin: 2% auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pilih-con {
+  border-radius: 6px;
+  background: #fdfdfd;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cari-con {
+  text-align: center;
+  width: 5vw;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #4177f5;
+}
+
+.pilih-jenis-penggunaan-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; /* Distributes items with space between them */
+  align-items: center;
+  margin: 5vh 25vw;
+}
+
+.penggunaan-con {
+  width: 126px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grey-line {
+  width: 65vw;
+  height: 2px;
+  background: #cfcfcf;
+  margin: 2% auto;
+}
+
+.penggunaan-header {
+  padding-top: 20px;
+  color: #000;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.desc {
+  margin-top: 2vh;
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.penggunaan-image-con {
+  width: 30vw;
+  height: 33vh;
+  flex-shrink: 0;
+  outline: 1px solid rgb(140, 134, 134);
+  margin: 2vh auto;
+}
+
+.bulan-header {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.calculator-con {
+  width: 400px;
+  height: 220px;
+  flex-shrink: 0;
+  border-radius: 17px;
+  background: #fff;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.25);
+  margin: 2vh auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 2vw;
+}
+
+.in-calc-header {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.in-calculator-font {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 1.5vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-box {
+  width: 8vw;
+  height: 27px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #969696;
+  margin-left: 1vh;
+}
+
+.input-box input {
+  width: 100%; /* Take up the full width of the .input-box container */
+  height: 100%; /* Take up the full height of the .input-box container */
+  border: none; /* Remove default input border */
+  border-radius: inherit; /* Inherit border-radius from .input-box */
+  padding: 0 8px; /* Add padding if needed */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.submit-button {
+  width: 6.5vw;
+  height: 5vh;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #4177f5;
+  margin: 1vh auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.muat-naik-con {
+  width: 360px;
+  height: 420px;
+  flex-shrink: 0;
+  border-radius: 17px;
+  background: #fff;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.25);
+  margin: 3vh auto;
+}
+
+.muat-naik-fail {
+  width: 70%;
+  height: 80%;
+  border-radius: 8px;
+  border: 1.5px dashed #969696;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.file-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  text-align: center;
+
+  color: #9d9d9d;
+}
+
+.upload-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* SEARCH BAR DARI SINI*/
+.formAlign {
+  padding-bottom: 20px;
+}
+
+.tahun-kategori-cari-con {
+  max-width: 25vw;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pilih-con {
+  border-radius: 6px;
+  background: #fdfdfd;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  height: 30px;
+  width: 120px;
+}
+/* SEARCH BAR SAMPAI SINI*/
+
+/* SUBMIT BUTTON DARI SINI */
+.centerElement {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitForm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 40px;
+  background-color: #4177f5;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+}
+
+.submitForm:hover {
+  background-color: green;
+}
+
+/* SUBMIT BUTTON DARI SINI */
+
+.circle {
+  height: 30px;
+  width: 30px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.letakhujung {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}

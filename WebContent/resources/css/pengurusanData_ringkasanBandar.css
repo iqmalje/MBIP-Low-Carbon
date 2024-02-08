@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    /* border: black dashed 1px; */
+    margin: 0%;
+}
+
+body{
+    background-color: #F1F4F8;
+    font-family: 'Poppins';
+}
+
+/*-TOPBAR-*/
+.topbar{
+    height: 57px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+/*topbar-menu*/
+.menu2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+.menu2 img{
+    height: 15px;
+    padding-right: 10px;
+}
+
+.returnPage{
+    width: 250px;
+    height: 45px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #666666;
+    border: 1px solid #969696;
+}
+
+/*topbar-competetion*/
+.competetion img{
+    height: 50px;
+}
+
+/*topbar-user*/
+.user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+}
+
+.user img{
+    height: 23px;
+    padding-left: 13px;
+}
+
+/*-PAGE TITLE-*/
+.centerDiv2{
+    background-color: blue;
+    height: 30px;
+    width: 800px;
+}
+
+.toLeft{
+    /* background-color: #F00; */
+    width: 430px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageTitle-container{
+    position: relative;
+    padding-top: 20px;
+    /* background-color: thistle; */
+    height: 30px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.pageTitle-stripe{
+    position: absolute;
+    background-color: #FFD977;
+    width: 430px;
+    height: 16.353px;
+    transform: rotate(-0.494deg);
+    display: flex;
+
+}
+
+.pageTitle-stripe h1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    width: 430px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/*-CUSTOM DIVIDER-*/
+.customDivider{
+    margin-top: 10px;
+    width: 900px;
+    height: 1.2px;
+    background: #CFCFCF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+
+/*-SEARCH BAR*/
+.searchBar-container{
+    /* background-color: #4177F5; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.searchBar{
+    width: 820px;
+    height: 43px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+.searchBar img{
+    height: 18px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.searchBar input{
+    color: #808080;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    width: 720px;
+    border: none;
+}
+
+/*-HEADER 1-*/
+.centerDiv{
+    display: flex;
+    justify-content: center;
+}
+
+
+.pgrsnData-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pgrsnData-subtitle{
+    text-align: left;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.pgrsnData-data-container{
+    padding: 35px 35px 10px 35px;
+    width: 830px;
+    height: 590px;
+    border-radius: 17px;
+    background: #FFF;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+}
+
+/*-RINGKASAN PENGGUNAAN DATA-*/
+.header2{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.dataBandar-container{
+    display: flex;
+    height: 420px;
+}
+
+/*data box kiri*/
+.dataBandar-kiri{
+    width: 359px;
+    height: 409px;
+    border-radius: 15px;
+    background: linear-gradient(142deg, rgba(126, 220, 240, 0.37) 0%, rgba(3, 74, 255, 0.77) 100%);    
+    margin-right: 20px;
+    padding: 0 25px;
+}
+
+.namaBandar{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.infoBandar-kiri{
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.infoBandar-kiri2{
+    font-size: 13px;     
+    margin-left: 10px;
+}
+
+/*data box kanan*/
+.dataBandar-kanan{
+    width: 600px;
+    height: 409px;
+    border-radius: 15px;
+    background: linear-gradient(268deg, #F9A13B 6.48%, #FFF628 96.72%);
+    padding: 0 25px;
+}
+
+/*jumlah CO2*/
+.jumlahCo2-container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.jumlahC02{
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 10px;  
+}
+
+.marginTop{
+    margin-top: 40px;
+}
+
+.infoBandar-kanan{
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.viewParticipant-container{
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    background-color: transparent;
+    margin-top: 10px;
+    border: 1.5px solid #4177F5;
+    border-radius: 9px;
+    align-items: center;
+}
+
+a{
+    color: #4177F5;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:link { text-decoration: none; }
+a:visited { 
+    color: #4177F5;
+    text-decoration: none; 
+}
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.simpanButton{
+    width: 150px;
+    height: 38px;
+    border-radius: 9px;
+    background: #4177F5; 
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.updated-time {
+    margin-left: auto;
+    margin-right: 66px;
+    margin-top: 0px;
+    text-align: right;
+}
+

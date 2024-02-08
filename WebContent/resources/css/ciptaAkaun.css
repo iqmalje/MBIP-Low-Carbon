@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    /* border: black dashed 1px; */
+    margin: 0%;
+}
+
+body{
+    background-color: #F1F4F8;
+    font-family: 'Poppins';
+}
+
+/*-TOPBAR-*/
+.topbar{
+    height: 57px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/*topbar-competetion*/
+.topbar img{
+    height: 50px;
+}
+
+/*-CIPTA AKAUN-*/
+.centerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.ciptaAkaun-container{
+    padding: 35px 35px 10px 35px;
+    width: 650px;
+    height: 380px;
+    border-radius: 17px;
+    background: #FFF;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    text-align: center;
+}
+
+.pageTitle{
+    color: #000;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.inputFeild{
+    width: 300px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1.3px solid #969696;
+    background: #E5E5E5;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    padding-left: 15px;
+}
+
+.termaDanSyarat{
+    margin-top: 10px;
+    width: 320px;
+    display: flex;
+    margin: auto;
+}
+
+.tnctext{
+    margin-left: 15px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-color: #0057FF;
+    text-decoration-thickness: 1px;
+}
+
+.daftarButton-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.daftarButton{
+    width: 130px;
+    height: 38px;
+    border-radius: 9px;
+    background: #4177F5; 
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}

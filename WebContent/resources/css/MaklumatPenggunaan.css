@@ -1,0 +1,374 @@
+body{
+    margin: 0;
+    background-color: #F1F4F8;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom-area{
+    border: 1px #CFCFCF solid;
+}
+
+.salinan-header{
+    color: black;
+    font-size: 34px;
+    font-family: Poppins;
+    font-weight: 600; 
+    margin-top: 68px;
+    text-align: center;
+}   
+
+.yellow-line {
+    width: 500px;
+    height: 16.35px;
+    background: #FFD977;
+    margin: -13px auto 0 auto;
+}
+
+.tahun-kategori-cari-con{
+    max-width: 25vw; 
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.cari-con{
+    text-align: center;
+    width: 5vw;
+    height: 20px;
+    flex-shrink: 0; 
+    border-radius: 8px;
+    background: #4177F5;
+}
+
+.pilih-jenis-penggunaan-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /* Distributes items with space between them */
+    align-items: center;
+    margin: 5vh 25vw;
+}
+
+.penggunaan-con {
+    width: 126px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-decoration: none; /* Remove underline */
+}
+
+
+.elektrik-con{
+    background: linear-gradient(268deg, #FF9C28 6.48%, #FFF628 96.72%); 
+}
+
+.air-con{
+    background: linear-gradient(273deg, #7EDCF0 -0.74%, rgba(3, 74, 255, 0.77) 115.33%);
+}
+
+.kitar-semula-con{
+    background: linear-gradient(273deg, #E7ED4A 0%, #388E04 100%);
+}
+
+.grey-line{
+    width: 65vw;
+    height: 2px;
+    background: #CFCFCF;
+    margin: 2% auto;
+}
+
+.penggunaan-header{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.desc{
+    margin-top: 2vh;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.penggunaan-image-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 33vh;
+    flex-shrink: 0;
+    /* outline: 1px solid rgb(140, 134, 134); */
+    margin: 2vh auto;
+}
+
+.penggunaan-image-con::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc; /* Grey background color */
+    z-index: -1; /* Place behind the image */
+}
+
+.penggunaan-image-con img {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+.bulan-header{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 2vh;
+}
+
+.calculator-con{
+    width: 26vw;
+    height: 339px;
+    flex-shrink: 0;
+    border-radius: 17px;
+    background: #FFF;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.25);
+    margin: 3vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2vw;
+}
+
+.in-calc-header{
+    color: #000;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.in-calculator-font{
+    color: #000;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.5vh ;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.horizontal-center{
+    margin: 0 auto
+}
+
+.input-box{
+    width: 8vw;
+    height: 27px;
+    flex-shrink: 0; 
+    border-radius: 8px;
+    border: 1px solid #969696;
+    margin-left: 1vh;
+}
+
+.input-box input {
+    width: 8vw; /* Take up the full width of the .input-box container */
+    height: 100%; /* Take up the full height of the .input-box container */
+    border: none; /* Remove default input border */
+    border-radius: inherit; /* Inherit border-radius from .input-box */
+    padding: 0 8px; /* Add padding if needed */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.submit-button{
+    width: 6.5vw;
+    height: 5vh;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background: #4177F5;
+    margin: 1vh auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.muat-naik-con{
+    width: 456px;
+    height: 648px;
+    flex-shrink: 0;
+    border-radius: 17px;
+    background: #FFF;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.25);
+    margin: 3vh auto;
+}
+
+.muat-naik-fail {
+    width: 17vw;
+    height: 466px;
+    border-radius: 8px;
+    border: 1.5px dashed #969696;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.file-label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    text-align: center;
+    line-height: 466px; 
+    color: #9D9D9D; 
+}
+
+
+.upload-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* SEARCH BAR DARI SINI*/
+.formAlign {
+    padding-top: 20px;
+}
+
+
+  .pilih-con {
+    display: inline-block;
+    margin: 10px;
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 150px;
+    cursor: pointer;
+}
+
+
+.pilih-con::after {
+    content: '\25BC'; 
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #555;
+}
+
+select,
+.cari-button {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 150px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cari-button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #3498db; /* Added border for consistency with dropdowns */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cari-button:hover {
+    background-color: #2980b9;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: #000000; /* Set the text color to blue (you can use your preferred color) */
+}
+
+/* Add arrow icon to dropdowns */
+.pilih-con::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #F1F4F8;
+}
+
+.pilih-cari-con::after {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #ac1a1a;
+}
+/* SEARCH BAR SAMPAI SINI*/
+
+/* SUBMIT BUTTON DARI SINI */
+.centerElement {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitForm1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px; 
+    height: 40px; 
+    background-color: #4177F5; 
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+}
+
+.submitForm1:hover {
+    background-color: green;
+}
+
+/* SUBMIT BUTTON DARI SINI */
